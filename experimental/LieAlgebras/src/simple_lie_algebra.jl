@@ -95,9 +95,6 @@ function Base.show(io::IO, L::SimpleLieAlgebra)
     print(IOContext(io, :supercompact => true), coefficient_ring(L))
   end
 
-function symbols(L::SimpleLieAlgebra) 
-  return L.s
-end
 
 ###############################################################################
 #
