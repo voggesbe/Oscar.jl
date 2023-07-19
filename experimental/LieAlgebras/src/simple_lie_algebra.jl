@@ -157,4 +157,3 @@ function chevalley_basis(L::SimpleLieAlgebra)
   h = B[(2 * n + 1):dim(L)]
   return (r_plus, r_minus, h)
 end
-
