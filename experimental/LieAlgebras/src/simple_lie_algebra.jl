@@ -96,7 +96,6 @@ function Base.show(io::IO, L::SimpleLieAlgebra)
   end
 end
 
-
 ###############################################################################
 #
 #   Arithmetic operations
