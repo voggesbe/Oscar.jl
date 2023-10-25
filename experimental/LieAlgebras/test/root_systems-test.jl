@@ -5,4 +5,3 @@
   @test number_of_roots(R) == 48
   @test number_of_roots(:F, 4) == number_of_roots(R)
 end
-
